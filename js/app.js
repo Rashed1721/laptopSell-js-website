@@ -17,8 +17,14 @@ function MemoryCost(memoryMoney) {
     const extraStorageText = extraStorage.innerText;
     const extraStorageAmount = parseInt(extraStorageText);
 
+    //delivery Amount
+
+    const delivery = document.getElementById('delivery-cost');
+    const deliveryText = delivery.innerText
+    const deliveryAmount = parseInt(deliveryText);
+
     //total cost
-    const totalAmount = memoryAmount + bestPriceAmount + extraStorageAmount;
+    const totalAmount = memoryAmount + bestPriceAmount + extraStorageAmount + deliveryAmount;
     console.log(totalAmount);
 
     //total price
@@ -46,8 +52,14 @@ function storageCost(storageMoney) {
     const memoryAmount = parseInt(memoryText);
 
 
+    //delivery Amount
+
+    const delivery = document.getElementById('delivery-cost');
+    const deliveryText = delivery.innerText
+    const deliveryAmount = parseInt(deliveryText);
+
     //total cost
-    const totalAmount = bestPriceAmount + extraStorageAmount + memoryAmount;
+    const totalAmount = bestPriceAmount + extraStorageAmount + memoryAmount + deliveryAmount;
 
     ////total price
     const totalPrice = document.getElementById('total-price');
