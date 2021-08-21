@@ -1,0 +1,17 @@
+.button-bg-color:hover{
+    background-color: black;
+    color: white;
+}
+.promo-button-bg-color{
+    background-color: rgb(187, 66, 66);
+    color: white;
+}
+.cart-item{
+	background-color: rgb(255, 254, 254);
+	border-radius: 10px;
+	/* padding: 15px 0px; */
+	/* margin-bottom: 20px; */
+}
+.bd-color{
+    color: black;
+}
